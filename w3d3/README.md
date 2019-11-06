@@ -1,0 +1,10 @@
+# w3d3 homework
+ - Lab 1: [index.html](https://sophiablitz.github.io/mum-cs311/w3d3/Lab1-code/index.html)
+    - [test.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab1-code/test.js)
+    - [employee.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab1-code/employee.js)
+ - Lab 2: [index.html](https://sophiablitz.github.io/mum-cs311/w3d3/Lab2-code/index.html)
+    - [test.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab2-code/test.js)
+    - [lookup.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab2-code/lookup.js)
+ - Lab 3: [index.html](https://sophiablitz.github.io/mum-cs311/w3d3/Lab3-code/index.html)
+    - [test.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab3-code/test.js)
+    - [dups.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab3-code/dups.js)

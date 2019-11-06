@@ -47,5 +47,9 @@ describe("Employee class", function() {
             emp.addEntry("4/15/2019", 2988.50);
             assert.equal(emp.printAveragePaycheck(), "Average paycheck for Jim Jones was 3336.00")
         });
+        it("Returns a string that describe the average amount paid to this employee", function () {
+            let emp = new Employee("Jim", "Jones");
+            assert.equal(emp.printAveragePaycheck(), "Average paycheck for Jim Jones was 0.00")
+        });
     });
 });

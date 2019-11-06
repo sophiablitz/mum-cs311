@@ -33,9 +33,9 @@ class Employee {
      */
     printPaymentAmount(date) {
         if (this._salaryRecord.has(date)) {
-            return `${this.name} was paid $${this._salaryRecord.get(date)} on ${date}`;
+            return `${this.firstName} ${this.lastName} was paid ${this._salaryRecord.get(date).toFixed(2)} on ${date}`;
         } else {
-            return `${this.name} did not receive a paycheck on ${date}`;
+            return `${this.firstName} ${this.lastName} did not receive a paycheck on ${date}`;
         }
     }
 
@@ -45,8 +45,8 @@ class Employee {
      */
     printAveragePaycheck() {
         // edge case, avoid dividing by zero by returning zero first
-        if (this._salaryRecord.length == 0) { 
-            return `Average paycheck for ${this.name} was $0`;
+        if (this._salaryRecord.size == 0) { 
+            return `Average paycheck for ${this.firstName} ${this.lastName} was 0.00`;
         }
 
         // calculate average pay
@@ -54,7 +54,7 @@ class Employee {
         for (let amount of this._salaryRecord.values()) {
             sum += amount;
         }
-        return `Average paycheck for ${this.name} was $${sum / this._salaryRecord.length}`;
+        return `Average paycheck for ${this.firstName} ${this.lastName} was ${(sum / this._salaryRecord.size).toFixed(2)}`;
     }
 }
 

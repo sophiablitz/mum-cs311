@@ -21,3 +21,9 @@
  - Lab 3: [index.html](https://sophiablitz.github.io/mum-cs311/w3d3/Lab3-code/index.html)
     - [test.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab3-code/test.js)
     - [dups.js](https://sophiablitz.github.io/mum-cs311/w3d3/Lab3-code/dups.js)
+
+## [w3d4 homework](https://sophiablitz.github.io/mum-cs311/w3d4)
+ - [index.html](https://sophiablitz.github.io/mum-cs311/w3d4/index.html)
+ - [test.js](https://sophiablitz.github.io/mum-cs311/w3d4/test.js)
+ - [binarySearchTree.js](https://sophiablitz.github.io/mum-cs311/w3d4/binarySearchTree.js)
+ - [employee.js](https://sophiablitz.github.io/mum-cs311/w3d4/employee.js)
